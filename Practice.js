@@ -1,19 +1,11 @@
-let item = {
-    product: "cloth",
-    cloths:{
-        Shirt: 300,
-        pant:  600,
-        shose: 1200,
-    }
+ let price = 500;
+ let quantity = 3;
+
+ console.log(
+   `total price:${price*quantity} taka` );
+
+
+function getDiscount(price){
+    return price * 0.1;
 }
-let totalCloths= 0;
-let totalPrice=0;
-
-for(const ele in item.cloths){
-    totalPrice  += item.cloths[ele];
-    totalCloths++; 
-}
-
-let avg = totalPrice / totalCloths;
-
-console.log("Average Price is", avg);
+console.log(`You saved: ${getDiscount(price)} taka\nYour bill now ${(price*quantity)-getDiscount(price)}`)
