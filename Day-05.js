@@ -1,11 +1,11 @@
-//Template Literals...............................
+//Template Literals..................................................................................................
  let price = 500;
  let quantity = 3;
 
  console.log(
    `total price:${price*quantity} taka` );
 
-//function call...................................
+//function call......................................................................................................
 function getDiscount(price){
     return price * 0.1;
 }
@@ -15,12 +15,12 @@ console.log(`You saved: ${getDiscount(price)} taka\nYour bill now ${(price*quant
  }
  console.log(`You saved: ${getDiscount(price)}taka\nBill Paid. ${price*quantity - getDiscount(price)}taka`)
 
-//Output show but quantitiy not showing............
+//Output show but quantitiy not showing...............................................................................
  let stock =5;
   console.log(`status: ${stock > 0? "In stock" :"Out of stock"}`);
 //if i showing stock quantity :  ${stock > 0? "In stock"+ " " + stock :"Out of stock"}`);
  
-//Destucturing...................................
+//Destucturing........................................................................................................
 const student={
     name: "Shabbir",
     age: 25,
@@ -38,24 +38,24 @@ const arr = ["Red", "Blue", "Green", "Yellow"];
 const [first, second, third]= arr;
 console.log(second);
 
-//Spread Operator...............................
+//Spread Operator......................................................................................................
 let bin = [ "fruits", "cake"];
 let bin2= ["fruits", "cake"]; 
 bin2.push("bun");
 console.log(bin,bin2);
 
-//Rest operator ................................
+//Rest operator .......................................................................................................
 const arry = [1,2,3,4,100,250,300];
 const [,,,,...remainig]= arry;
 console.log(remainig);
 
-//foreach.........................................
+//foreach..............................................................................................................
 let friends= ["haameem", "Rakib","Rifat","Ridoy"];
 let newfriends= friends.forEach((name,idx) => {
     console.log(`${idx } ->${name}`);
 
 });
-//Map.................................................................................
+//Map.................................................................................................................
 let fruits = ["Banana","Mango","Jackfruit","Watermelon"]
 let newFruits2 = fruits.map((f) => f.toLowerCase());
 console.log(newFruits2, "\n",fruits);
@@ -64,7 +64,7 @@ console.log(newFruits2, "\n",fruits);
 let customFruits= fruits.filter((f)=> f.length > 5);
 console.log(customFruits);
 
-//Find..find() প্রথম যে item condition-এর সাথে মিলে যায়, শুধু সেটাই দেয়।
+//Find..find() প্রথম যে item condition-এর সাথে মিলে যায়, শুধু সেটাই দেয়.................................................
  
 let students= [
     {name: "Rahim", marks: 85},
@@ -102,7 +102,7 @@ console.log(total);
 
  console.log(total);
 
-//Reduce Method.........................................................................
+//Reduce Method.....................................................................................................
 let products =[
     {title: "Mouse", price: 500, inStock: true},
     {title: "Keyboard", price: 600, inStock: false},
