@@ -46,3 +46,59 @@
 //  }else {
 //     console.log("A+")
 //  }
+
+
+// let invite = true;
+// let money = 1001;
+// if( invite == true ){
+//     console.log("go")
+//     if( money > 1000){
+//         console.log("Gift")
+//     }else{
+//         console.log("empty")
+//     }
+// }else {
+//     console.log("unfriend");
+// }
+
+// let Drinktea = true;
+// let Withbiscute = true;
+// if (Drinktea == true) {
+//     console.log("tea")
+//     if (Withbiscute == true) {
+//         console.log("biscute")
+//     }
+// } else {
+//     console.log("Seetv")
+// }
+
+// let price = 100
+// price > 3000 ? console.log ("Cashback 500tk") : console.log ("cashback 0 tk");
+
+
+// let age = 5;
+// age > 15 ? console.log("teenager") : console.log("child");
+
+// let tank = true;
+// tank == true ?  console.log("longdrive") : console.log("nodrive");
+
+// let sunny = false;
+// if( !sunny ){
+//     console.log("stayhome");
+// }
+
+
+// let num  = 50;
+// while (num <= 100){
+//     console.log(num);
+//     num++;
+// }
+
+// let num = 5;
+// let sum = 0;
+// while (num <= 15){
+//     console.log(num);
+//     sum = sum + num;
+//     num++;
+// }
+// console.log(sum);
