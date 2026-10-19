@@ -102,3 +102,99 @@
 //     num++;
 // }
 // console.log(sum);
+
+
+// const isLoggedIn = Boolean[];
+
+// if (isLoggedIn) {
+//   console.log("Welcome!");
+// } else {
+//   console.log("Login please");
+// }
+
+
+// let student = 1;
+// let sum = 0;
+// while (student <= 50) {
+//     console.log(student);
+//     sum = sum + student;
+//     student++;
+// }
+// console.log(sum);
+
+
+// let num = 21;
+// let sum = 0;
+//  while ( num <= 50) {
+//     console.log(num);
+//     sum = sum + num;
+//     num++;
+//  }
+//  console.log(sum);
+
+// for(let i = 150; i <= 170; i++) {
+//     console.log(i);
+// }
+
+
+// let sum = 0;
+// for( let i = 31 ; i <= 50; i++){
+//     sum= sum + i;
+// }
+// console.log(sum);
+
+
+
+
+// const laptop = {
+//     brand: "Dell",
+//     model: "Inspiron",
+//     price: 45000,
+// }
+// for( const key in laptop){
+//     const value = laptop[key];
+//     console.log(key, value);
+// }
+
+
+// const phone = {
+//     brand: "samsung",
+//     model: "Galaxy S21",
+//     price: 85000,
+// }
+// const keys = Object.keys(phone);
+// for (const key of keys) {
+//     console.log(key, phone[key])
+// }
+
+
+
+// const numbers = {
+//     a: 10,
+//     b: 20,
+//     c: 30,
+//     d: 40,
+// }
+// let number = Object.values(numbers)
+// for ( number of numbers) {
+//     console.log(number)
+// }
+
+
+// function names(a, b) {
+//   if (a.length > b.length) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(names("Shabbir", "Haa-meem"));
+
+// function math(a, b) {
+//   if (a * b > 100) {
+//     return (a * b) / 2;
+//   } else {
+//     return a * b;
+//   }
+// }
+// console.log(math(25, 5));
